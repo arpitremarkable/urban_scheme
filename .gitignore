@@ -1,0 +1,5 @@
+*.py[co]
+*.pyj-cached
+
+#virtual env folder
+.virtualenv
