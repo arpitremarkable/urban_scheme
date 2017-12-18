@@ -12,7 +12,6 @@ $ pip install -r requirements.txt
 
 #### Create user
 ```sh
-$ source .inst
 $ python manage.py createsuperuser
 ```
 
