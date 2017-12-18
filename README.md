@@ -8,6 +8,7 @@ $ sudo pip install virtualenv
 $ virtualenv .virtualenv
 $ source .virtualenv/bin/activate
 $ pip install -r requirements.txt
+$ python manage.py migrate
 ```
 
 #### Create user
@@ -17,8 +18,7 @@ $ python manage.py createsuperuser
 
 #### Run server
 ```sh
-python manage.py migrate
-python manage.py runserver
+$ python manage.py runserver
 ```
 
 #### Open URL
